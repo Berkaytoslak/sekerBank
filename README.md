@@ -6,16 +6,16 @@
 2. adım: Kullanılacak servis methodları için testler yazılmıştır.
 3. adım: Kullanılacak servisin methodları yazılıp, client de bulunan soap dosyaları servise entegre edilmiştir.
 4. adım: Test edilebilmesi için controller katmanı eklenmiştir.
-5. adım: eklenen kontroller katmanını test edebilmek için aşağıda ki endpointler hazırlanmıştır.
+5. adım: eklenen controller katmanını test edebilmek için aşağıda ki end-pointler hazırlanmıştır.
 
 #### Toplama işlemi
-http://localhost:8080/add?a=5&b=3
+http://localhost:8080/add?a=12&b=9
 
 #### Çıkarma işlemi
-http://localhost:8080/subtract?a=5&b=3
+http://localhost:8080/subtract?a=7&b=5
 
 #### Çarpma işlemi
-http://localhost:8080/multiply?a=5&b=3
+http://localhost:8080/multiply?a=12&b=5
 
 #### Bölme işlemi
-http://localhost:8080/divide?a=6&b=3
+http://localhost:8080/divide?a=8&b=2
