@@ -9,13 +9,13 @@
 5. adım: eklenen controller katmanını test edebilmek için aşağıda ki end-pointler hazırlanmıştır.
 
 #### Toplama işlemi
-http://localhost:8080/add?a=12&b=9
+http://localhost:8080/add?firsDigit=12&secondDigit=9
 
 #### Çıkarma işlemi
-http://localhost:8080/subtract?a=7&b=5
+http://localhost:8080/subtract?firsDigit=7&secondDigit=5
 
 #### Çarpma işlemi
-http://localhost:8080/multiply?a=12&b=5
+http://localhost:8080/multiply?firsDigit=12&secondDigit=5
 
 #### Bölme işlemi
-http://localhost:8080/divide?a=8&b=2
+http://localhost:8080/divide?firsDigit=8&secondDigit=2
